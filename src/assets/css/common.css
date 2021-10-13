@@ -1,0 +1,8 @@
+.e-quick-popup-wrapper .e-event-popup .e-popup-header .e-header-icon-wrapper .e-edit:disabled > .e-edit-icon, .e-quick-popup-wrapper .e-event-popup .e-popup-header .e-header-icon-wrapper .e-edit:disabled > .e-delete-icon, .e-quick-popup-wrapper .e-event-popup .e-popup-header .e-header-icon-wrapper .e-delete:disabled > .e-edit-icon, .e-quick-popup-wrapper .e-event-popup .e-popup-header .e-header-icon-wrapper .e-delete:disabled > .e-delete-icon
+    {
+      display: none !important;
+    }
+    .e-more-popup-wrapper .e-appointment
+    {
+background: #3C2D2B !important;
+    }

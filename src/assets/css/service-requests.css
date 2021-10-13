@@ -1,0 +1,50 @@
+.manage-service-request-table .table-striped tbody tr td:nth-child(4) {
+  /* text-align: right !important; */
+  text-align: center !important;
+  padding-right: 50px !important;
+}
+.manage-service-request-table thead > tr > th:nth-child(4) {
+  /* text-align: right !important; */
+  text-align: center !important;
+  padding-right: 50px !important;
+}
+.manage-service-request-table tbody,
+td,
+th,
+tr {
+  text-align: left !important;
+}
+.manage-service-request-table .VueTables__search-field input {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid;
+  border-radius: 3px;
+}
+.manage-service-request-table .VueTables__limit-field select {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid;
+  border-radius: 3px;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  /* color: #fff !important; */
+  color: #a8a8a8 !important;
+  font-size: 13px;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  /* color: #fff !important; */
+  color: #a8a8a8 !important;
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  /* color: #fff !important; */
+  color: #a8a8a8 !important;
+  font-size: 13px;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 13px;
+  color: #a8a8a8 !important;
+  /* color: #fff !important; */
+}

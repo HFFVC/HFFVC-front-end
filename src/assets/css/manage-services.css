@@ -1,0 +1,116 @@
+.VueTables__table
+{
+    /* background: rgba(0, 0, 0, 0.3); */
+    color:#fff !important;
+    font-size: 13px !important;
+    border: 1px solid rgba(0, 0, 0, 0.7) !important;
+    /* border-radius: 30px !important; */
+}
+.VueTables__sortable 
+{
+    background: rgba(0, 0, 0, 0.4);
+}
+.table-hover tbody tr:hover
+{
+    color:#fff !important;
+    background: rgba(0, 0, 0, 0.4);
+}
+tbody tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.4) !important;
+    color: #fff;
+  }
+  .form-inline label
+  {
+    justify-content:left !important
+  }
+.VueTables__search
+  {
+display: inline-block;
+float: left;
+  }
+.VueTables__limit
+  {
+    display: inline-block !important;
+    float: right !important;
+  }
+  .row
+  {
+padding: 0px !important;
+margin:0px !important;
+width: 100% !important;
+  }
+
+  @media screen and (max-width: 700px) {
+    .heading
+    {
+      
+      text-align: left !important;
+    }
+
+   
+   }
+   @media screen and (max-width: 420px) {
+   .header-container
+   {
+height: 80px !important;
+   }
+   .icon-container
+   {
+    top: 30px !important;
+    float: right !important;
+    position: absolute !important; 
+    left: -20px;
+   }
+   .sub-header-imgs
+   {
+       width: 18px !important;
+
+   }
+   .sub-header-close-img
+   {
+    width: 18px !important;
+   }
+}
+.VueTables--client > .row > .col-md-12
+{
+padding: 0px  !important;
+}
+.VueTables__search-field > input
+{
+    color:#fff !important;
+}
+.VueTables__limit-field > select{
+    color:#fff !important;
+}
+.page-item.disabled .page-link
+{
+    background: rgba(0, 0, 0, 0.2) !important;
+    color:#fff !important;
+}
+.page-item.active .page-link
+{
+    background: #250b01 !important;
+    color:#fff !important;
+    border-color:#fff !important;
+}
+.page-link
+{
+    background: rgba(0, 0, 0, 0.2) !important;
+    color:#fff !important;
+}
+.table-bordered td, .table-bordered th
+{
+  border: none !important;
+}
+.sub-header-close-img
+{
+  cursor: pointer;
+}
+tbody,td,th,tr
+{
+  text-align: left !important;
+}
+/* tbody>tr>:nth-child(6){
+
+  text-align:right !important;
+ } */
